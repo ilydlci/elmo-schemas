@@ -6,10 +6,11 @@
 	xmlns:europass="http://europass.cedefop.europa.eu/Europass/V2.0"
 	xmlns:xml="http://www.w3.org/XML/1998/namespace"
 	xmlns:xs="http://www.w3.org/2001/XMLSchema">
-	
+
 	<xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="http://www.w3.org/2001/03/xml.xsd" />
 	<xs:import namespace="http://www.w3.org/2000/09/xmldsig#" schemaLocation="https://raw.githubusercontent.com/emrex-eu/elmo-schemas/v1/references/xmldsig-core-schema.xsd" />
-	<xs:import namespace="http://europass.cedefop.europa.eu/Europass/V2.0" schemaLocation="https://raw.githubusercontent.com/emrex-eu/elmo-schemas/v1/references/EUROPASS_ISOCountries_V1.1.xsd" />
+	<xs:import
+		namespace="http://europass.cedefop.europa.eu/Europass/V2.0" schemaLocation="https://raw.githubusercontent.com/emrex-eu/elmo-schemas/v1/references/EUROPASS_ISOCountries_V1.1.xsd" />
 
 	<xs:element name="elmoPlus">
 		<xs:complexType>
@@ -25,16 +26,19 @@
 								<xs:annotation>
 									<xs:documentation>The datetime when the modul, course or class
 										starts. It SHOULD contain the timezone
-										suffix. Example values: &quot;2015-08-01T12:00:00+02:00&quot;,
+										suffix. Example values:
+										&quot;2015-08-01T12:00:00+02:00&quot;,
 										&quot;2015-08-01T10:00:00Z&quot;.
 									</xs:documentation>
 								</xs:annotation>
 							</xs:element>
-							<xs:element minOccurs="0" name="end" type="xs:dateTime">
+							<xs:element minOccurs="0" name="end"
+								type="xs:dateTime">
 								<xs:annotation>
 									<xs:documentation>The datetime when the modul, course or class
 										end. It SHOULD contain the timezone
-										suffix. Example values: &quot;2015-08-01T12:00:00+02:00&quot;,
+										suffix. Example values:
+										&quot;2015-08-01T12:00:00+02:00&quot;,
 										&quot;2015-08-01T10:00:00Z&quot;.
 									</xs:documentation>
 								</xs:annotation>
@@ -77,7 +81,7 @@
 								<xs:attribute ref="xml:lang" use="optional">
 									<xs:annotation>
 										<xs:documentation>The corresponding examination regulations
-															language for the title of the modul.
+											language for the title of the modul.
 										</xs:documentation>
 									</xs:annotation>
 								</xs:attribute>
@@ -92,7 +96,7 @@
 					</xs:annotation>
 					<xs:complexType>
 						<xs:sequence>
-							<xs:element minOccurs="0"  maxOccurs="unbounded" name="category">
+							<xs:element minOccurs="0" maxOccurs="unbounded" name="category">
 								<xs:annotation>
 									<xs:documentation>This describes a single range within the
 										histogram.
@@ -123,14 +127,7 @@
 						<xs:documentation>A list of corresponding study programmes of this
 							Learning Opportunity Specification.
 
-							- This element SHOULD contain the xml:lang attribute. You may skip
-							the xml:lang
-							attribute only when you really don't know the language which your will be
-							using here.
 
-							- You SHOULD try to include the name of the institution both in
-							English and
-							in the original language.
 						</xs:documentation>
 					</xs:annotation>
 					<xs:complexType>
@@ -139,6 +136,19 @@
 								<xs:annotation>
 									<xs:documentation>A list of corresponding study programmes of
 										this Learning Opportunity Specification.
+										- This element SHOULD
+										contain
+										the xml:lang attribute. You may skip
+										the xml:lang
+										attribute only
+										when you really don't know the language which your will be
+										using
+										here.
+
+										- You SHOULD try to include the name of the institution both
+										in
+										English and
+										in the original language.
 									</xs:documentation>
 								</xs:annotation>
 								<xs:complexType>
@@ -154,7 +164,7 @@
 											<xs:attribute ref="xml:lang" use="optional">
 												<xs:annotation>
 													<xs:documentation>The corresponding examination regulations
-															language for the title of the modul.
+														language for the title of the modul.
 													</xs:documentation>
 												</xs:annotation>
 											</xs:attribute>
@@ -188,7 +198,7 @@
 						</xs:sequence>
 					</xs:complexType>
 				</xs:element>
-				<xs:element name="workload" >
+				<xs:element name="workload">
 					<xs:annotation>
 						<xs:documentation>This describes the workload a student has to put
 							in to acquire a certain amount of credits points.
@@ -201,20 +211,24 @@
 									<xs:documentation>Currently there is only one predefined scheme
 										you can have here:
 
-										ects - if the scheme is &quot;ects&quot;, then the value element
+										ects - if the scheme is &quot;ects&quot;,
+										then the value element
 										MUST contain the number
-										of ECTS credits awarded for our learner for completing this
+										of ECTS credits
+										awarded for our learner for completing this
 										learning
 										opportunity.
 
-										You can also include any number of other credits with custom
+										You can also include any number of other credits
+										with custom
 										schemes.
 									</xs:documentation>
 								</xs:annotation>
 							</xs:element>
 							<xs:element name="level" type="xs:string">
 								<xs:annotation>
-									<xs:documentation>This describes the level in which the modul is
+									<xs:documentation>This describes the level in which the modul
+										is
 										held.
 										This can either be Bachelor, Master or PhD.
 									</xs:documentation>
@@ -264,7 +278,8 @@
 								<xs:annotation>
 									<xs:documentation>The title of the accountable person. All
 										servers MUST provide it (if it is impossible
-										for some reason, please provide an empty string here).
+										for some reason,
+										please provide an empty string here).
 									</xs:documentation>
 								</xs:annotation>
 							</xs:element>
@@ -272,7 +287,8 @@
 								<xs:annotation>
 									<xs:documentation>The given names of the accountable person.
 										All servers MUST provide it (if it is impossible
-										for some reason, please provide an empty string here).
+										for some
+										reason, please provide an empty string here).
 									</xs:documentation>
 								</xs:annotation>
 							</xs:element>
@@ -280,7 +296,8 @@
 								<xs:annotation>
 									<xs:documentation>The family name of the accountable person.
 										All servers MUST provide it (if it is impossible
-										for some reason, please provide an empty string here).
+										for some
+										reason, please provide an empty string here).
 									</xs:documentation>
 								</xs:annotation>
 							</xs:element>
@@ -288,7 +305,8 @@
 								<xs:annotation>
 									<xs:documentation>The email address for the accountable person.
 										All servers MUST provide it (if it is impossible
-										for some reason, please provide an empty string here).
+										for some
+										reason, please provide an empty string here).
 									</xs:documentation>
 								</xs:annotation>
 							</xs:element>
@@ -303,7 +321,8 @@
 		<xs:annotation>
 			<xs:documentation>A xs:token value with at optional xml:lang
 				attribute. It is used in places
-				where server developers may provide the name of an entity in multiple
+				where server developers may provide
+				the name of an entity in multiple
 				languages.
 			</xs:documentation>
 		</xs:annotation>

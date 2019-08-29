@@ -28,8 +28,8 @@
 			<title xml:lang="de">Informationstheorie</title>
 			<title xml:lang="en">Information theory</title>
 			<type>Module</type>
-			<subjectArea></subjectArea>
-			<iscedCode></iscedCode>
+			<subjectArea/>
+			<iscedCode/>
 			<description xml:lang="de">...</description>
 			<description xml:lang="en">...</description>
 			<descriptionHtml xml:lang="de">...</descriptionHtml>
@@ -71,8 +71,8 @@
 					<title xml:lang="de">Informationstheory</title>
 					<title xml:lang="en">Information Theory</title>
 					<type>Course</type>
-					<subjectArea></subjectArea>
-					<iscedCode></iscedCode>
+					<subjectArea/>
+					<iscedCode/>
 					<url>https://www.commit.tu-berlin.de/menue/lehre/modules/modules_communications_engineering_stupo_2015/information_theory/</url>
 					<description />
 					<descriptionHtml />
@@ -89,7 +89,7 @@
 							<ep:resultScheme />
 							<ep:losUsability />
 							<ep:reexamination />
-						<ep:workload xmlns="https://github.com/ilydlci/elmo-schemas/elmoPlus.xsd">
+						<ep:workload>
 							<ep:scheme>ects</ep:scheme>
 							<ep:level>Bachelor</ep:level>
 							<ep:totalHours>90</ep:totalHours>
@@ -97,7 +97,7 @@
 							<ep:attendanceHours>30</ep:attendanceHours>
 							<ep:value>3</ep:value>
 						</ep:workload>
-						<ep:accountable xmlns="https://github.com/ilydlci/elmo-schemas/elmoPlus.xsd">
+						<ep:accountable>
 							<ep:title>Prof.</ep:title>
 							<ep:givenNames>G.</ep:givenNames>
 							<ep:familyNames>Claire</ep:familyNames>
@@ -114,8 +114,8 @@
 					<title xml:lang="de">Netzwerkinformationstheorie</title>
 					<title xml:lang="en">Network Information Theory</title>
 					<type>Course</type>
-					<subjectArea></subjectArea>
-					<iscedCode></iscedCode>
+					<subjectArea/>
+					<iscedCode/>
 					<description />
 					<descriptionHtml />
 					<specifies>
