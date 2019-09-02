@@ -86,7 +86,7 @@
                 </xs:annotation>
                 <xs:complexType>
                     <xs:sequence>
-                        <xs:element  name="studyProgramme" type="studyProgrammeType">
+                        <xs:element minOccurs="0" maxOccurs="unbounded" name="studyProgramme" type="studyProgrammeType">
                             <xs:annotation>
                                 <xs:documentation>A list of corresponding study programmes of
                                     this Learning Opportunity Specification.
