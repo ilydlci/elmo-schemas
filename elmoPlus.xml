@@ -60,7 +60,8 @@
 				&lt;li&gt;The Interference Channel&lt;&#47;li&gt;
 				&lt;li&gt;Graphical networks and network coding&lt;&#47;li&gt;
 				&lt;li&gt;Relay networks and noisy network coding&lt;&#47;li&gt;
-				&lt;/ul&gt; </descriptionHtml>
+				&lt;/ul&gt; 
+			</descriptionHtml>
 			<specifies>
 				<learningOpportunityInstance />
 			</specifies>
@@ -80,7 +81,7 @@
 						<learningOpportunityInstance />
 					</specifies>
 					<extension>
-					<ep:elmoPlus>
+						<ep:elmoPlus>
 							<ep:validity/>
 							<ep:prerequisiteParticipation xml:lang="de" />
 							<ep:prerequisiteAwardingCP xml:lang="de"/>
@@ -89,20 +90,20 @@
 							<ep:resultScheme />
 							<ep:losUsability />
 							<ep:reexamination />
-						<ep:workload>
-							<ep:scheme>ects</ep:scheme>
-							<ep:level>Bachelor</ep:level>
-							<ep:totalHours>90</ep:totalHours>
-							<ep:selfStudyHours>60</ep:selfStudyHours>
-							<ep:attendanceHours>30</ep:attendanceHours>
-							<ep:value>3</ep:value>
-						</ep:workload>
-						<ep:accountable>
-							<ep:title>Prof.</ep:title>
-							<ep:givenNames>G.</ep:givenNames>
-							<ep:familyNames>Claire</ep:familyNames>
-							<ep:email>claire@tu-berlin.de</ep:email>
-						</ep:accountable>
+							<ep:workload>
+								<ep:scheme>ects</ep:scheme>
+								<ep:level>Bachelor</ep:level>
+								<ep:totalHours>90</ep:totalHours>
+								<ep:selfStudyHours>60</ep:selfStudyHours>
+								<ep:attendanceHours>30</ep:attendanceHours>
+								<ep:value>3</ep:value>
+							</ep:workload>
+							<ep:accountable>
+								<ep:title>Prof.</ep:title>
+								<ep:givenNames>G.</ep:givenNames>
+								<ep:familyNames>Claire</ep:familyNames>
+								<ep:email>claire@tu-berlin.de</ep:email>
+							</ep:accountable>
 						</ep:elmoPlus>
 					</extension>
 				</learningOpportunitySpecification>
@@ -122,7 +123,7 @@
 						<learningOpportunityInstance />
 					</specifies>
 					<extension>
-					<ep:elmoPlus>
+						<ep:elmoPlus>
 							<ep:validity/>
 							<ep:prerequisiteParticipation xml:lang="de" />
 							<ep:prerequisiteAwardingCP xml:lang="de"/>
@@ -150,64 +151,65 @@
 				</learningOpportunitySpecification>
 			</hasPart>
 			<extension>
-			<ep:elmoPlus>
-				<ep:validity>
-					<ep:start>2017-10-01T12:00:00+02:00</ep:start>
-					<ep:end>2021-10-01T12:00:00+02:00</ep:end>
-				</ep:validity>
-				<ep:prerequisiteParticipation xml:lang="en">
-					Desirable prerequisites for participation in the courses:
-					Prerequisite for participation to courses are a mathematical
-					background at the level of beginning MS students in Electrical
-					Engineering
-					(multivariate calculus, Fourier and Laplace Transforms,
-					signals and systems, linear algebra and notions of matrix theory).
-					The course is
-					open to students enrolled in any MSc in EE CS,
-					Mathematics and Physics.
-					Mandatory requirements for the module test
-					application:
-					No information
-				</ep:prerequisiteParticipation>
-				<ep:prerequisiteAwardingCP xml:lang="en">Students must finish both courses.</ep:prerequisiteAwardingCP>
-				<ep:losDuration xml:lang="en">This module can be completed in 2 semesters.</ep:losDuration>
-				<ep:studyProgramme po="2015" xml:lang="en">...</ep:studyProgramme>
-				<ep:resultScheme >
-					<ep:category grade="1.0" points="85.0" />
-					<ep:category grade="1.3" points="80.0" />
-					<ep:category grade="1.7" points="75.0" />
-					<ep:category grade="2.0" points="70.0" />
-					<ep:category grade="2.3" points="65.0" />
-					<ep:category grade="2.7" points="60.0" />
-					<ep:category grade="3.0" points="55.0" />
-					<ep:category grade="3.3" points="50.0" />
-					<ep:category grade="3.7" points="45.0" />
-					<ep:category grade="4.0" points="40.0" />
-				</ep:resultScheme>
-				<ep:losUsability>
-					<ep:studyProgramme po="2015" xml:lang="en">Computer Engineering (Master of Science)
-					</ep:studyProgramme>
-					<ep:studyProgramme po="2015" xml:lang="en">Computer Science (Informatik) (Master of Science)
-					</ep:studyProgramme>
-				</ep:losUsability>
-				<ep:reexamination>
-					<ep:followingSemester>true</ep:followingSemester>
-					<ep:semesterEnd>true</ep:semesterEnd>
-				</ep:reexamination>
-				<ep:workload>
-					<ep:scheme>ects</ep:scheme>
-					<ep:level>Bachelor</ep:level>
-					<ep:totalHours>180</ep:totalHours>
-					<ep:selfStudyHours>90</ep:selfStudyHours>
-					<ep:attendanceHours>90</ep:attendanceHours>
-					<ep:value>6</ep:value>
-				</ep:workload>
-				<ep:accountable>
-					<ep:title>Prof.</ep:title>
-					<ep:givenNames>G.</ep:givenNames>
-					<ep:familyNames>Claire</ep:familyNames>
-					<ep:email>claire@tu-berlin.de</ep:email>
-				</ep:accountable>
+				<ep:elmoPlus>
+					<ep:validity>
+						<ep:start>2017-10-01T12:00:00+02:00</ep:start>
+						<ep:end>2021-10-01T12:00:00+02:00</ep:end>
+					</ep:validity>
+					<ep:prerequisiteParticipation xml:lang="en">
+						Desirable prerequisites for participation in the courses:
+						Prerequisite for participation to courses are a mathematical
+						background at the level of beginning MS students in Electrical
+						Engineering
+						(multivariate calculus, Fourier and Laplace Transforms,
+						signals and systems, linear algebra and notions of matrix theory).
+						The course is
+						open to students enrolled in any MSc in EE CS,
+						Mathematics and Physics.
+						Mandatory requirements for the module test
+						application:
+						No information
+					</ep:prerequisiteParticipation>
+					<ep:prerequisiteAwardingCP xml:lang="en">Students must finish both courses.</ep:prerequisiteAwardingCP>
+					<ep:losDuration xml:lang="en">This module can be completed in 2 semesters.</ep:losDuration>
+					<ep:studyProgramme po="2015" xml:lang="en">...</ep:studyProgramme>
+					<ep:studyProgramme po="2015" xml:lang="de">...</ep:studyProgramme>
+					<ep:resultScheme >
+						<ep:category grade="1.0" points="85.0" />
+						<ep:category grade="1.3" points="80.0" />
+						<ep:category grade="1.7" points="75.0" />
+						<ep:category grade="2.0" points="70.0" />
+						<ep:category grade="2.3" points="65.0" />
+						<ep:category grade="2.7" points="60.0" />
+						<ep:category grade="3.0" points="55.0" />
+						<ep:category grade="3.3" points="50.0" />
+						<ep:category grade="3.7" points="45.0" />
+						<ep:category grade="4.0" points="40.0" />
+					</ep:resultScheme>
+					<ep:losUsability>
+						<ep:studyProgramme po="2015" xml:lang="en">Computer Engineering (Master of Science)
+						</ep:studyProgramme>
+						<ep:studyProgramme po="2015" xml:lang="en">Computer Science (Informatik) (Master of Science)
+						</ep:studyProgramme>
+					</ep:losUsability>
+					<ep:reexamination>
+						<ep:followingSemester>true</ep:followingSemester>
+						<ep:semesterEnd>true</ep:semesterEnd>
+					</ep:reexamination>
+					<ep:workload>
+						<ep:scheme>ects</ep:scheme>
+						<ep:level>Bachelor</ep:level>
+						<ep:totalHours>180</ep:totalHours>
+						<ep:selfStudyHours>90</ep:selfStudyHours>
+						<ep:attendanceHours>90</ep:attendanceHours>
+						<ep:value>6</ep:value>
+					</ep:workload>
+					<ep:accountable>
+						<ep:title>Prof.</ep:title>
+						<ep:givenNames>G.</ep:givenNames>
+						<ep:familyNames>Claire</ep:familyNames>
+						<ep:email>claire@tu-berlin.de</ep:email>
+					</ep:accountable>
 				</ep:elmoPlus>
 			</extension>
 		</learningOpportunitySpecification>
