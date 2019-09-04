@@ -57,7 +57,6 @@
 					<extension/>
 				</learningOpportunityInstance>
 			</specifies>
-			<hasPart/>
 			<extension/>
 			</learningOpportunitySpecification>
 		<issueDate>2019-08-28T12:00:00+02:00</issueDate>
@@ -74,7 +73,7 @@
 			<url>http://www.th-luebeck.de</url>
 		</issuer>
 		<learningOpportunitySpecification>
-				<identifier type="local">FEM1</identifier>
+			<identifier type="local">FEM1</identifier>
 			<identifier type="nus">863199</identifier>
 			<identifier type="courseCode">MATH520</identifier>
 			<identifier type="courseVersion">2</identifier>
@@ -94,16 +93,14 @@
 						<end>2019-02-14</end>
 					</academicTerm>
 					<resultLabel>2.7</resultLabel>
-					<resultDistribution/>
-						<credit>
-							<scheme>ECTS</scheme>
-							<value>3</value>
-						</credit>
+					<credit>
+						<scheme>ECTS</scheme>
+						<value>3</value>
+					</credit>
 					<engagementHours>0.0</engagementHours>
 					<extension/>
 				</learningOpportunityInstance>
 			</specifies>
-			<hasPart/>
 			<extension>
 				<er:elmoRecogPlus>
 						<er:studyProgramme></er:studyProgramme>
