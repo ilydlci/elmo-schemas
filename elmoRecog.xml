@@ -18,7 +18,7 @@
 		<issuer>
 			<country>US</country>
 			<identifier type="local">CSULB</identifier>
-			<identifier type="recognitionType">from</identifier>
+			<identifier type="recognitionAttendee">from</identifier>
 			<identifier type="schac">csulb.edu</identifier>
 			<identifier type="pic"/>
 			<title xml:lang="en">California State University Long Beach</title>
@@ -49,10 +49,10 @@
 						<category count="31" label="D"/>
 						<category count="13" label="E"/>
 					</resultDistribution>
-						<credit>
-							<scheme>ECTS</scheme>
-							<value>3</value>
-						</credit>
+					<credit>
+						<scheme>ECTS</scheme>
+						<value>3</value>
+					</credit>
 					<engagementHours>0.0</engagementHours>
 					<extension/>
 				</learningOpportunityInstance>
@@ -67,7 +67,7 @@
 		<issuer>
 			<country>DE</country>
 			<identifier type="erasmus">TH Lübeck</identifier>
-			<identifier type="recognitionType">to</identifier>
+			<identifier type="recognitionAttendee">to</identifier>
 			<title xml:lang="de">Technische Hochschule Lübeck</title>
 			<title xml:lang="en">Technical University Lübeck</title>
 			<url>http://www.th-luebeck.de</url>
@@ -80,8 +80,6 @@
 			<title xml:lang="en">Finite Elements Methods 1</title>
 			<title xml:lang="de">Finite Elements Methods 1</title>
 			<type>Course</type>
-			<subjectArea></subjectArea>
-			<iscedCode></iscedCode>
 			<description xml:lang="de">...</description>
 			<specifies>
 				<learningOpportunityInstance>
@@ -95,7 +93,7 @@
 					<resultLabel>2.7</resultLabel>
 					<credit>
 						<scheme>ECTS</scheme>
-						<value>3</value>
+						<value>5</value>
 					</credit>
 					<engagementHours>0.0</engagementHours>
 					<extension/>
@@ -103,7 +101,8 @@
 			</specifies>
 			<extension>
 				<er:elmoRecogPlus>
-						<er:studyProgramme></er:studyProgramme>
+						<er:studyProgramme po="2017" xml:lang="en">Mechanical Engineering, M.Sc.</er:studyProgramme>
+						<er:studyProgramme po="2017" xml:lang="de">Mechanical Engineering, M.Sc.</er:studyProgramme>
 				</er:elmoRecogPlus>
 			</extension>
 			</learningOpportunitySpecification>

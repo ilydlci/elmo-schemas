@@ -99,7 +99,7 @@
 	</xs:complexType>
 	<xs:complexType name="elmoRecogPlusType">
 		<xs:sequence>
-			<xs:element name="studyProgramme" type="studyProgrammeType">
+			<xs:element name="studyProgramme" type="studyProgrammeType" maxOccurs="unbounded">
 				<xs:annotation>
 					<xs:documentation>The studyProgramme for the corresponding LOS
 					</xs:documentation>
