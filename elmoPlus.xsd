@@ -250,14 +250,14 @@
 					</xs:documentation>
 				</xs:annotation>
 			</xs:element>
-			<xs:element name="selfStudyHours" type="xs:decimal">
+			<xs:element minOccurs="0" name="selfStudyHours" type="xs:decimal">
 				<xs:annotation>
 					<xs:documentation>The number of self study hours a student has
 						to put in as work for this modul.
 					</xs:documentation>
 				</xs:annotation>
 			</xs:element>
-			<xs:element name="attendanceHours" type="xs:decimal">
+			<xs:element minOccurs="0" name="attendanceHours" type="xs:decimal">
 				<xs:annotation>
 					<xs:documentation>The number of attendance hours a student has
 						to put in as work for this modul.
