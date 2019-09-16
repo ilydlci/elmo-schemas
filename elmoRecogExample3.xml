@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elmo xmlns="https://github.com/emrex-eu/elmo-schemas/tree/v1"
+	xmlns:xml="http://www.w3.org/XML/1998/namespace"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:er="https://github.com/ilydlci/elmo-schemas"
+	xsi:schemaLocation="https://github.com/emrex-eu/elmo-schemas/tree/v1 schema.xsd
+						https://github.com/ilydlci/elmo-schemas elmoRecog.xsd">
+    					
+	<generatedDate>2019-08-22T12:00:00+02:00</generatedDate>
+	<learner>
+		<citizenship>DE</citizenship>
+		<givenNames>Max</givenNames>
+		<familyName>Mustermann</familyName>
+	</learner>
+	<!-- Report for finished Modules/Courses -->
+	<report>
+		<issuer>
+			<country>ES</country>
+			<identifier type="erasmus">E VALENCI02</identifier>
+			<identifier type="schac">upv.es</identifier>
+			<identifier type="recognitionAttendee">from</identifier>
+			<title xml:lang="es">Universitat Politecnica de Valencia</title>
+			<title xml:lang="de">Polytechnische Universität Valencia</title>
+			<url>http://www.upv.es/</url>
+		</issuer>
+		<learningOpportunitySpecification>
+			<identifier type="local">10267</identifier>
+			<title xml:lang="es">Expresión Artística</title>
+			<title xml:lang="en">Artistic Drawing</title>
+			<type>Course</type>
+			<url>https://www.cfp.upv.es/formacion-permanente/cursos/31--educacion-visual-i--como-mirar-una-obra-de-arte--elementos-basicos-de-expresion-artistica_idiomaes-cid66314.html</url>
+			<description xml:lang="es">
+			La finalidad de este curso es ofrecer al alumno unos elementos básicos de juicio para la comprensión de la obra de
+			arte. Es poder disfrutar de las fantásticas y numerosas manifestaciones artísticas, como son por ejemplo las
+			exposiciones de pintura, o de las abundantes colecciones de que disponemos en museos o fundaciones.
+			
+			Resumen del Curso
+			-	Para comprender la estructura total del lenguaje plástico es útil centrarse en los elementos visuales que lo
+			constituyen, a fin de comprender mejor sus cualidades específicas.
+			-	A lo largo del curso estudiamos estas partes interactuantes, siempre referidas a una obra de arte concreta, y
+			realizando recorridos a través de la historia del arte.
+			-	No sólo estudiaremos los elementos formales que constituyen la obra, aportaremos las necesarias lecturas
+			complementarias que ayuden y enriquezcan el entendimiento de la misma.
+			Temario y Desarrollo del Curso:
+			0. Introducción
+			1. El color.
+			1. 1. Introducción.
+			1. 2. La luz.
+			1. 3. El color pigmento. Colores complementarios.
+			1. 4. Percepción del color.
+			1. 5. Ejemplos prácticos.
+			2. Elementos básicos de expresión.
+			2. 1. El punto.
+			2. 2. La línea.
+			2. 3. El plano.
+			2. 4. La textura.
+			2. 5. El color.
+			2. 6. La luz.
+			3. La composición.
+			3. 1. El esquema compositivo.
+			3 .2. Esquemas compositivos básicos
+			</description>
+			<specifies>
+				<learningOpportunityInstance>
+					<start>2018-08-13</start> <!-- angefangen mit dem Kurs -->
+					<date>2018-12-20</date> <!-- Prüfung geschrieben am -->
+					<academicTerm>
+						<title xml:lang="en">2018 Autumn</title> 
+						<start>2018-08-13</start>
+						<end>2018-12-12</end>
+					</academicTerm>
+					<status>passed</status>
+					<gradingSchemeLocalId>0-100</gradingSchemeLocalId>
+                    <resultLabel>B</resultLabel>
+					<resultDistribution>
+						<category count="15" label="A"/>
+						<category count="36" label="B"/>
+						<category count="37" label="C"/>
+						<category count="31" label="D"/>
+						<category count="13" label="E"/>
+					</resultDistribution>
+					<credit>
+						<scheme>ECTS</scheme>
+						<value>9</value>
+					</credit>
+					<level>
+                        <type>EQF</type>
+                        <description>European Qualification Framework</description>
+                        <value>6</value>
+                    </level>
+					<languageOfInstruction>es</languageOfInstruction>
+					<engagementHours>0.0</engagementHours>
+					<grouping typeref= "2" idref="2" />
+					<extension/>
+				</learningOpportunityInstance>
+			</specifies>
+			<extension/>
+			</learningOpportunitySpecification>
+		<learningOpportunitySpecification>
+			<identifier type="local">10300</identifier>
+			<title xml:lang="es">Mobiliario urbano: Diseño y accesibilidad</title>
+			<title xml:lang="en">Street Furniture: Design and Accessibility</title>
+			<type>Course</type>
+			<url>https://riunet.upv.es/handle/10251/72438</url>
+			<description xml:lang="es">
+			Este libro contribuye a esclarecer y reforzar la incorporación de pautas de accesibilidad en el diseño de elementos de mobiliario urbano, particularmente en aquellos objetos con los que los usuarios tienen contacto directo. El núcleo de esta publicación lo constituye la revisión, desde la perspectiva del diseño de producto, de las características que determinan y definen esta tipología de elementos y una serie de recomendaciones particulares que constituyen una aportación estratégica para los proyectos de diseño y la selección de elementos urbanos de uso colectivo. 
+			</description>
+			<specifies>
+				<learningOpportunityInstance>
+					<start>2018-08-13</start> <!-- angefangen mit dem Kurs -->
+					<date>2019-01-13</date> <!-- Prüfung geschrieben am -->
+					<academicTerm>
+						<title xml:lang="en">2018 Autumn</title> 
+						<start>2018-08-13</start>
+						<end>2018-12-21</end>
+					</academicTerm>
+					<status>passed</status>
+					<gradingSchemeLocalId>0-100</gradingSchemeLocalId>
+                    <resultLabel>A</resultLabel>
+					<resultDistribution>
+						<category count="15" label="A"/>
+						<category count="10" label="B"/>
+						<category count="45" label="C"/>
+						<category count="27" label="D"/>
+						<category count="5" label="E"/>
+					</resultDistribution>
+					<credit>
+						<scheme>ECTS</scheme>
+						<value>6</value>
+					</credit>
+					<level>
+                        <type>EQF</type>
+                        <description>European Qualification Framework</description>
+                        <value>6</value>
+                    </level>
+					<languageOfInstruction>es</languageOfInstruction>
+					<engagementHours>0.0</engagementHours>
+					<grouping typeref= "2" idref="2" />
+					<extension/>
+				</learningOpportunityInstance>
+			</specifies>
+			<extension/>
+			</learningOpportunitySpecification>
+		<learningOpportunitySpecification>
+			<identifier type="local">10284</identifier>
+			<title xml:lang="es">Diseño Gráfico y Comunicación</title>
+			<title xml:lang="en">Graphic Design and Communication</title>
+			<type>Course</type>
+			<specifies>
+				<learningOpportunityInstance>
+					<start>2018-08-13</start> <!-- angefangen mit dem Kurs -->
+					<date>2018-12-20</date> <!-- Prüfung geschrieben am -->
+					<academicTerm>
+						<title xml:lang="en">2018 Autumn</title> 
+						<start>2018-08-13</start>
+						<end>2018-12-19</end>
+					</academicTerm>
+					<status>passed</status>
+					<gradingSchemeLocalId>0-100</gradingSchemeLocalId>
+                    <resultLabel>A</resultLabel>
+					<credit>
+						<scheme>ECTS</scheme>
+						<value>6</value>
+					</credit>
+					<level>
+                        <type>EQF</type>
+                        <description>European Qualification Framework</description>
+                        <value>6</value>
+                    </level>
+					<languageOfInstruction>es</languageOfInstruction>
+					<engagementHours>0.0</engagementHours>
+					<grouping typeref= "2" idref="2" />
+					<extension/>
+				</learningOpportunityInstance>
+			</specifies>
+			<extension/>
+			</learningOpportunitySpecification>
+		<learningOpportunitySpecification>
+			<identifier type="local">10315</identifier>
+			<title xml:lang="es">Diseño Estratégico</title>
+			<title xml:lang="en">Strategic Design</title>
+			<type>Course</type>
+			<description xml:lang="es">
+			He realizado el último semestre del grado en la Universidad Técnica de Delft (TU Delft). Como no permiten a los alumnos de grado de intercambio hacer un TFG, 
+			realizé un semestre completo en el Máster de Diseño Estratégico. El enfoque de este máster es en la parte estratégica del diseño de productos y servicios. 
+			El énfasis del programa está en la traducción de la estrategia y las oportunidades de mercado de una empresa en una fuerte cartera de productos o servicios. 
+			En otras palabras, se pretende potenciar al máximo el impacto del diseño en las empresas y los mercados. Los cursos realizados han sido los siguientes. 
+			El objetivo es el aprendizaje del proceso de desarrollo que comienza con una cuidadosa consideración de las necesidades del mercado, el entorno competitivo, 
+			recursos de la empresa, la imagen de la marca, y el estilo y la función del nuevo producto o servicio que se creará. ID4050 Internationalization. 
+			Durante medio semestre realizamos un proyecto para comparar una cultura asiática de nuestra elección (la japonesa), con la holandesa, la española y la coreana. 
+			Mediante el estudio de las dimensiones de Hoefstede, pudimos comprender las peculiaridades de cada cultura y así poder diseñar un plan para la entrada de una 
+			empresa holandesa en el mercado japonés. Las áreas de estudio incluyen el diseño web relacionado con la cultura, el estudio del panorama económico de cada país 
+			y finalmente el diseño de un producto considerando especialmente las necesidades del país para el que está siendo diseñado. ID4336 Leading strategic design. 
+			Realizamos un proyecto en colaboración con una startup holandesa, Peerby, en el que se nos pedía idear el futuro de la empresa y encontrar un modelo de negocio 
+			que les permitiese ser autosuficientes y no depender de crowdfunding. Para ello, tuvimos que realizar un estudio extensivo de distintos trabajos de investigación, 
+			para aprender técnicas para definir el futuro de una empresa. Además, teníamos discusiones semanalmente sobre los temas de los trabajos de investigación, 
+			y tuvimos que presentar uno de los temas al resto de la clase. ID4340 Strategic value of design. El objetivo es entender nuestro valor estratégico como 
+			diseñadores para las empresas, con el objetivo de poder posicionarnos mejor en el mercado laboral. Para ello, tuvimos que leer diferentes trabajos y 
+			textos sobre el valor del diseño, escribir blogs sobre los mismos hasta llegar a un posicionamiento final después de este estudio. Al mismo tiempo, en 
+			grupos creamos una consultoría de diseño, definiendo las actividades de la misma y un set de herramientas para llevarlas a cabo. ID4355 SPD Research project. 
+			Realizé un trabajo de investigación durante un semestre. Mi tema fue el desarrollo de una escala para medir design thinking . La escala, desarrollada por dos 
+			profesores de la universidad, se nos proporcionó para testarla mediante métodos estadísticos. Además, como parte de la investigación, buscamos y testamos variables 
+			dependientes del design thinking. ID4360 SPD Research methodology. Aprendizaje de métodos de investigación tanto cuantitativos como cualitativos. 
+			En la parte cualitativa, realizamos una entrevista, la transcribimos y codificamos. En la parte cuantitativa, realizamos distintos tutoriales en SPSS para 
+			aprender a interpretar los resultados de diferentes métodos estadísticos. ID4315 New product commercialization. Desarrollo del plan de marketing de un Nuevo 
+			servicio para una empresa de moda holandesa (ST.Studio). Además, estudio de diferentes trabajos de investigación en el campo del marketing, en los que debíamos 
+			basar el proyecto. ID4230 Visual communication design. Clases sobre visualización de información e ideas. El primer trabajo consistía en desmontar un objeto común 
+			y crear un producto completamente nuevo a partir de sus piezas, aunque de forma muy abstracta. El segundo proyecto consistía en la creación de dos películas basadas en un cu.
+			</description>
+			<specifies>
+				<learningOpportunityInstance>
+					<start>2018-08-13</start> <!-- angefangen mit dem Kurs -->
+					<date>2019-01-21</date> <!-- Prüfung geschrieben am -->
+					<academicTerm>
+						<title xml:lang="en">2018 Autumn</title> 
+						<start>2018-08-13</start>
+						<end>2018-12-21</end>
+					</academicTerm>
+					<status>passed</status>
+					<gradingSchemeLocalId>0-100</gradingSchemeLocalId>
+                    <resultLabel>A</resultLabel>
+					<credit>
+						<scheme>ECTS</scheme>
+						<value>4.5</value>
+					</credit>
+					<level>
+                        <type>EQF</type>
+                        <description>European Qualification Framework</description>
+                        <value>6</value>
+                    </level>
+					<languageOfInstruction>es</languageOfInstruction>
+					<engagementHours>0.0</engagementHours>
+					<grouping typeref= "2" idref="2" />
+					<extension/>
+				</learningOpportunityInstance>
+				</specifies>
+			<extension/>
+			</learningOpportunitySpecification>
+		<learningOpportunitySpecification>
+			<identifier type="local">10287</identifier>
+			<title xml:lang="es">Taller de Diseño I</title>
+			<title xml:lang="en">Design Workshop I</title>
+			<type>Course</type>
+			<description xml:lang="es">
+			Introducir al alumno en la incorporación de técnicas y procesos de trabajo que facilitan al proyecto de diseño, el ánalisis, la evaluación y la presentaciión de sus ideas. Esta forma de operar le acerca a la actividad proyectiva, el trabajo profesional y a formar tanto su visión espacial como su espíritu crítico, desde el plano técnico, estético, compositivo y de relación con el medio. Este taller de iniciación se acerca a través de las técnicas básicas: laminados de papel, cartón y plástico, y de las espumas de poliestireno, contribuir a ese primer acercamiento.
+			</description>
+			<specifies>
+				<learningOpportunityInstance>
+					<start>2018-08-13</start> <!-- angefangen mit dem Kurs -->
+					<date>2019-01-21</date> <!-- Prüfung geschrieben am -->
+					<academicTerm>
+						<title xml:lang="en">2018 Autumn</title> 
+						<start>2018-08-13</start>
+						<end>2019-01-12</end>
+					</academicTerm>
+					<status>passed</status>
+					<gradingSchemeLocalId>0-100</gradingSchemeLocalId>
+                    <resultLabel>A</resultLabel>
+					<credit>
+						<scheme>ECTS</scheme>
+						<value>6</value>
+					</credit>
+					<level>
+                        <type>EQF</type>
+                        <description>European Qualification Framework</description>
+                        <value>6</value>
+                    </level>
+					<languageOfInstruction>es</languageOfInstruction>
+					<engagementHours>0.0</engagementHours>
+					<grouping typeref= "2" idref="2" />
+					<extension/>
+				</learningOpportunityInstance>
+				</specifies>
+			<extension/>
+		</learningOpportunitySpecification>
+		<issueDate>2019-08-28T12:00:00+02:00</issueDate>
+		<attachment />
+	</report>
+	<!-- Report for Modules/Courses to be recognized -->
+	<report>
+		<issuer>
+			<country>DE</country>
+			<identifier type="erasmus">D LUBECK03</identifier>
+			<identifier type="recognitionAttendee">to</identifier>
+			<title xml:lang="de">Fachhochschule Lübeck</title>
+			<title xml:lang="en">University of Applied Sciences Luebeck</title>
+			<url>http://www.fh-luebeck.de</url>
+		</issuer>
+		<learningOpportunitySpecification>
+			<identifier type="local">IDB1700</identifier>
+			<title xml:lang="de">Wahlpflichtmodul 4. Semester</title>
+			<type>Course</type>
+			<specifies>
+				<learningOpportunityInstance>
+					<start>2019-04-01</start>
+					<academicTerm>
+						<title xml:lang="de">Sommersemester 2019</title>
+						<start>2018-04-01</start>
+						<end>2019-07-13</end>
+					</academicTerm>
+					<status>in-progress</status>
+					<credit>
+						<scheme>ECTS</scheme>
+						<level>Bachelor</level>  <!-- level is optional! DEPRECATED ab V2-->
+						<value>5</value>
+					</credit>
+					<level>
+		               <type>EQF</type>
+		               <description>European Qualification Framework</description>
+		               <value>6</value>
+		            </level>
+					<extension/>
+				</learningOpportunityInstance>
+			</specifies>
+			<extension>
+				<er:elmoRecogPlus>
+						<er:studyProgramme po="2018" xml:lang="de">Informationstechnologie und Design (Bachelor of Science)</er:studyProgramme>
+				</er:elmoRecogPlus>
+			</extension>
+		</learningOpportunitySpecification>
+		<learningOpportunitySpecification>
+			<identifier type="local">IDB1700</identifier>
+			<title xml:lang="de">Wahlpflichtmodul 5. Semester</title>
+			<type>Course</type>
+			<specifies>
+				<learningOpportunityInstance>
+					<start>2019-04-01</start>
+					<academicTerm>
+						<title xml:lang="de">Sommersemester 2019</title>
+						<start>2018-04-01</start>
+						<end>2019-07-13</end>
+					</academicTerm>
+					<status>in-progress</status>
+					<credit>
+						<scheme>ECTS</scheme>
+						<level>Bachelor</level>  <!-- level is optional! DEPRECATED ab V2-->
+						<value>5</value>
+					</credit>
+					<level>
+		               <type>EQF</type>
+		               <description>European Qualification Framework</description>
+		               <value>6</value>
+		            </level>
+					<extension/>
+				</learningOpportunityInstance>
+			</specifies>
+			<extension>
+				<er:elmoRecogPlus>
+						<er:studyProgramme po="2018" xml:lang="de">Informationstechnologie und Design (Bachelor of Science)</er:studyProgramme>
+				</er:elmoRecogPlus>
+			</extension>
+		</learningOpportunitySpecification>
+		<learningOpportunitySpecification>
+			<identifier type="local">IDB1700</identifier>
+			<title xml:lang="de">Wahlpflichtmodul 6. Semester</title>
+			<type>Course</type>
+			<specifies>
+				<learningOpportunityInstance>
+					<start>2019-04-01</start>
+					<academicTerm>
+						<title xml:lang="de">Sommersemester 2019</title>
+						<start>2018-04-01</start>
+						<end>2019-07-13</end>
+					</academicTerm>
+					<status>in-progress</status>
+					<credit>
+						<scheme>ECTS</scheme>
+						<level>Bachelor</level>  <!-- level is optional! DEPRECATED ab V2-->
+						<value>5</value>
+					</credit>
+					<level>
+		               <type>EQF</type>
+		               <description>European Qualification Framework</description>
+		               <value>6</value>
+		            </level>
+					<extension/>
+				</learningOpportunityInstance>
+			</specifies>
+			<extension>
+				<er:elmoRecogPlus>
+						<er:studyProgramme po="2018" xml:lang="de">Informationstechnologie und Design (Bachelor of Science)</er:studyProgramme>
+				</er:elmoRecogPlus>
+			</extension>
+		</learningOpportunitySpecification>
+		<learningOpportunitySpecification>
+			<identifier type="local">IDB1390</identifier>
+			<title xml:lang="de">Designprojekt I (10287+10315)</title>
+			<type>Course</type>
+			<specifies>
+				<learningOpportunityInstance>
+					<start>2019-04-01</start>
+					<academicTerm>
+						<title xml:lang="de">Sommersemester 2019</title>
+						<start>2018-04-01</start>
+						<end>2019-07-13</end>
+					</academicTerm>
+					<status>in-progress</status>
+					<credit>
+						<scheme>ECTS</scheme>
+						<level>Bachelor</level>  <!-- level is optional! DEPRECATED ab V2-->
+						<value>10</value>
+					</credit>
+					<level>
+		               <type>EQF</type>
+		               <description>European Qualification Framework</description>
+		               <value>6</value>
+		            </level>
+					<extension/>
+				</learningOpportunityInstance>
+			</specifies>
+			<extension>
+				<er:elmoRecogPlus>
+						<er:studyProgramme po="2018" xml:lang="de">Informationstechnologie und Design (Bachelor of Science)</er:studyProgramme>
+				</er:elmoRecogPlus>
+			</extension>
+		</learningOpportunitySpecification>
+		<issueDate>2019-08-28T12:00:00+02:00</issueDate>
+		<attachment />
+	</report>
+	<attachment />
+	<groups>
+        <groupType id="1">
+            <title xml:lang="en">By category</title>
+            <group id="1" sortingKey="1">
+                <title xml:lang="en">Mandatory subjects</title>
+            </group>
+            <group id="2" sortingKey="2">
+                <title xml:lang="en">Optional subjects</title>
+            </group>
+        </groupType>
+        <groupType id="2">
+            <title xml:lang="en">By subject level</title>
+            <group id="1" sortingKey="1">
+                <title xml:lang="en">Master courses</title>
+            </group>
+            <group id="2" sortingKey="2">
+                <title xml:lang="en">Bachelor courses</title>
+            </group>
+        </groupType>
+    </groups>
+	<!-- Adding elmoRecog to the extension identifies the recognitionID and needed elements -->
+	<extension>
+		<er:elmoRecog>
+			<er:recognition>
+				<er:createdDate>2019-08-28T12:00:00+02:00</er:createdDate>
+				<er:finalized>2019-08-29T12:00:00+02:00</er:finalized>
+				<er:decision>approved</er:decision>
+				<er:description>Standardanerkennung</er:description>
+				<er:gradeDetermentation>erfolgt anhand der modifizierten bayrischen Formel</er:gradeDetermentation>
+				<er:createdBy>
+					<er:givenNames>Robert</er:givenNames>
+					<er:familyNames>Mustermann</er:familyNames>
+					<er:email>robert.mustermann@th-luebeck.de</er:email>
+				</er:createdBy>
+			</er:recognition>
+		</er:elmoRecog>
+	</extension>
+	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<SignedInfo>
+			<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+			<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+			<Reference URI="">
+				<Transforms>
+					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+				</Transforms>
+				<DigestMethod
+					Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+				<DigestValue>vKIjYDBEhQxFnLC233qn0rrZ0+I=</DigestValue>
+			</Reference>
+		</SignedInfo>
+		<SignatureValue>
+			oekgEiYwLKbtEZri6zo5CKgmK/umAS2aNfUsyPQspkGBdP9H0XE+ITOrD7PKVBgZQ5Y56KghaziF
+			48a27hHFcPrvHizPXINlVXo6hwgje1SPM9QzjmdyQrhftUWJvpgaGmC4/r8o1yaPGqnkNoylEVUo
+			wJTWJHaSPcYjNB7eDVY=
+		</SignatureValue>
+		<KeyInfo>
+			<X509Data>
+				<X509SubjectName>O=UiO,L=Oslo,ST=Some-State,C=NO</X509SubjectName>
+				<X509Certificate>
+					MIIB9TCCAV4CCQDzcL/uks2ttjANBgkqhkiG9w0BAQUFADA/MQswCQYDVQQGEwJOTzETMBEGA1UE
+					CAwKU29tZS1TdGF0ZTENMAsGA1UEBwwET3NsbzEMMAoGA1UECgwDVWlPMB4XDTE1MDIwNTEzNDE1
+					MloXDTE4MDUyMDEzNDE1MlowPzELMAkGA1UEBhMCTk8xEzARBgNVBAgMClNvbWUtU3RhdGUxDTAL
+					BgNVBAcMBE9zbG8xDDAKBgNVBAoMA1VpTzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAsnI3
+					V1JKOl6Ghgzu5AOSsUFcJfefKP3y4lkVzW18T8AXkLKjNWQxJpW7h7kqeEYpcijAIV/xRMu8vEeb
+					roadh9joOOD+ePL95VnAxcMxy3SdrGxRJ5RZwNf1l5UBxm416acIR78frlFX2kKz8kz0gmOmqFFe
+					y3zZm7ZdiKw9fTsCAwEAATANBgkqhkiG9w0BAQUFAAOBgQBn6MlnleclAG/BVF4irljHag7OOopx
+					TlQzb1V/mR0kYtsr6PZzCTJdwwU5YYWPG2hdqYRzyydlEGid5OPeCVtNQNQG8yKDCYeCS571jSbQ
+					7Q0n0IR4mv7SeLq537mVBaaftV3HdnyoSLcXQpDep/akUOa8TpPwVg/+2U7TWNGJeQ==
+				</X509Certificate>
+			</X509Data>
+		</KeyInfo>
+	</Signature>
+</elmo>
