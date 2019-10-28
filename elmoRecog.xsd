@@ -71,7 +71,7 @@
 											</xs:documentation>
 										</xs:annotation>
 									</xs:element>
-									<xs:element name="familyNames" type="xs:token">
+									<xs:element name="familyName" type="xs:token">
 										<xs:annotation>
 											<xs:documentation>The family name of the accountable person.
 												All servers MUST provide it (if it is impossible

@@ -450,7 +450,7 @@
 				<er:gradeDetermentation>erfolgt anhand der modifizierten bayrischen Formel</er:gradeDetermentation>
 				<er:createdBy>
 					<er:givenNames>Robert</er:givenNames>
-					<er:familyNames>Mustermann</er:familyNames>
+					<er:familyName>Mustermann</er:familyName>
 					<er:email>robert.mustermann@th-luebeck.de</er:email>
 				</er:createdBy>
 			</er:recognition>
